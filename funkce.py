@@ -1,8 +1,6 @@
 import smtplib
 from data_file import *  
 from email.mime.application import MIMEApplication
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
 from os.path import basename
 from dotenv import load_dotenv
 import os
