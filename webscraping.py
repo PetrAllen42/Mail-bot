@@ -7,7 +7,7 @@ list_url = ['https://crypto.com/price/bitcoin','https://crypto.com/price/ethereu
 tags = {"Name": [['h2', 'chakra-heading css-spkkpi'], ['div', 'zzDege']],
         "Price": [['span', 'chakra-text css-13hqrwd'], ['div', 'YMlKec fxKbKc']]
         }
-#mam rozdelene jednotlive hodnoty na nazvy a cisla -> ted je dat do dict
+
 def scrape_data_toExcel(list_url, ListOfTags):
     list_name = []
     list_price = []
